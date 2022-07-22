@@ -19,8 +19,8 @@ try:
             EC.presence_of_element_located((By.CLASS_NAME, "MuiButton-label"))
         )
         print("Login page loaded successfully.")
-        driver.find_element(By.ID, 'username').send_keys("asokadgr8sharma@gmail.com")
-        driver.find_element(By.ID, 'password').send_keys("twitter123")
+        driver.find_element(By.ID, 'username').send_keys("Email Here")
+        driver.find_element(By.ID, 'password').send_keys("Password Here")
         element.click()
         print("TEST 3")
         try:
